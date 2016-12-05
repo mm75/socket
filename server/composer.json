@@ -1,0 +1,29 @@
+{
+    "name": "jacksonveroneze/ratchet",
+    "description": "ratchet",
+    "license": "MIT",
+    "php": [
+        "socket",
+        "realtime",
+        "php"
+    ],
+    "authors": [
+        {
+            "name": "Jackson Veroneze",
+            "email": "jackson@jacksonveroneze.com"
+        }
+    ],
+    "require": {
+        "php": "^5.5 || ^7.0",
+        "cboden/ratchet": "^0.3.5"
+    },
+    "config": {
+        "vendor-dir": "vendor",
+        "process-timeout": 5000
+    },
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "src/"
+        }
+    }
+}
